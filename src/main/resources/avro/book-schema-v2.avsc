@@ -1,0 +1,23 @@
+{
+    "type": "record",
+    "name": "Book",
+    "namespace": "com.kafkatask.schema",
+    "fields": [
+    {
+        "name": "id",
+        "type": "int"
+    },
+    {
+        "name": "name",
+        "type": "string"
+    },
+    {
+        "name": "author",
+        "type": "string"
+    },
+    {
+        "name":"genre",
+        "type": "string",
+        "default": "fiction"
+    }]
+}
